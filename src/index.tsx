@@ -3,8 +3,11 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 // import App from "./components/app/App";
 import reportWebVitals from "./reportWebVitals";
-// import Navbar from './components/navbar/Navbar';
+import Navbar from './components/navbar/Navbar';
 import Footer from "./components/footer/Footer";
+import Card from "./components/card/Card";
+
+
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -12,10 +15,10 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    {/* <Navbar
+{/*     <Navbar
       item1 = "Olá"
-      item2 = 25
-    /> */}
+      item2={25}   
+    />
     
     <Footer 
     titulo1=" Titulo1"
@@ -30,7 +33,9 @@ root.render(
     item1="SegundoTeste" 
     item2="Rafael"
     item3="TudoNosso"
-    item4="Alterado" />
+    item4="Alterado" /> */}
+
+    <Card />
   </React.StrictMode>
 );
 
